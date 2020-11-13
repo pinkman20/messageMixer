@@ -1,5 +1,5 @@
-// const MessageMixer = require('./messageMixer.js') 1.method
-import MessageMixer from './messageMixer'
+const MessageMixer = require('./messageMixer.js') // 1.method
+//import MessageMixer from './messageMixer'
 
 
 function displayMessage() {

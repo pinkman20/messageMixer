@@ -58,5 +58,5 @@ MessageMixer.pigLatin  = function(sentence,character) {
   return sentence.split(' ').join(character +' ')
 };
 
-// module.exports = MessageMixer; // 1. Method
-export default MessageMixer; // 2. Method
+module.exports = MessageMixer; // 1. Method
+//export default MessageMixer; // 2. Method NOT SUPPORTED IN NODE.JS
